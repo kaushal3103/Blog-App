@@ -1,0 +1,504 @@
+*{
+  margin:0;
+  padding:0;
+}
+.navbar {
+  
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 80px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1280px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.post {
+  width: 30%;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.post p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.post img
+  {
+    width: 25vw;
+    height: 50vh;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.imagehead {
+  
+  background-image: url("https://wallpapers.com/images/high/dark-workspace-blogging-backdrop-acqoss4ry3i7ijyl.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+.herotext {
+  height:350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-around;
+  padding: 30px;
+  width: 50%;
+  color: white;
+  font-size: 24px;
+ margin-left: 20px;
+ margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  height: 100px;
+ 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0 10px;
+}
+
+.footer p:first-child {
+  margin-right: 20px;
+}
+
+.admin-panel {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.admin-panel h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+ 
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  max-width: 400px;
+}
+
+
+.admin-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.admin-table td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-table td ul li {
+  margin-bottom: 5px;
+}
+
+.admin-table td ul li div {
+  display: flex;
+  align-items: center;
+}
+
+.admin-table td ul li div strong {
+  margin-right: 10px;
+}
+
+.admin-table td ul li div img {
+  max-width: 100px;
+  height: 100px;
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.admin-table td div button {
+  padding: 8px 15px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-table td div button:hover {
+  background-color: black;
+}
+
+.post1 {
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 30px;
+  min-height: 500px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.post1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 200px; 
+}
+
+.post1 .input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  margin:10px;
+}
+
+.post1 input[type="text"] {
+  width: calc(100% - 220px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: right;
+}
+
+.post1 textarea[type="text"] {
+  width: calc(100% - 220px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: right;
+  height: 130px;
+}
+
+
+.post1 img {
+  display: block;
+  max-width: 200px; 
+  height: auto;
+  margin: 20px auto 10px; 
+}
+
+.post1 button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.post1 button:hover {
+  background-color: #0056b3;
+}
+
+.newpostbtn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c2e4a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 55px;
+  width: 200px;
+}
+
+.newpostbtn:hover {
+  background-color: #0056b3;
+}
+
+.postandcat {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 120px;
+   
+  align-items: center;
+}
+
+.postandcat button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 50px;
+  
+}
+
+.postandcat button:first-child {
+  background-color: blue; 
+  margin-right: 10px; 
+}
+
+.postandcat button:last-child {
+  background-color: green; 
+}
+
+.admin-panel1 {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-card {
+  width: calc(33.33% - 20px); 
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-card img {
+  width: 200px;
+  height: 250px;
+}
+
+.post-card h2,
+.post-card p {
+  padding: 10px;
+}
+
+.post-card button {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid #ddd;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.post-card button:hover {
+  background-color: #0056b3;
+}
+
+.editanddelete {
+  display: flex;
+  flex-direction: row;
+}
+
+.editanddelete button:first-child {
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.editanddelete button:last-child {
+  width: 50%;
+  background-color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.login-container {
+  width: 700px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.input-container label {
+  margin-bottom: 8px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.login-container form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.login-container form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.loginbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.adminbackhome {
+  background-color: #f0f0f0; 
+  padding: 10px; 
+  border-radius: 8px; 
+
+}
+
+.adminbackhome h3 {
+  margin: 0; 
+  cursor: pointer;
+}
+
